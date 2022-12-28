@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 538px;
+    background-color: rgb(254, 56, 56);
+    margin-bottom: 40px;
+}
+.container h1{
+    text-align: center;
+}
+.container #item1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    
+    text-indent: 10px;
+    word-spacing: 0%;
+    background-color: aliceblue;
+    height: 500px;
+}
+#item1, #item2{
+    width: 50%;
+    float: left;
+}
+.flex-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border: 1px solid rgb(2, 2, 2);
+    justify-content: space-around;
+}
+.flex-item{
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+}
