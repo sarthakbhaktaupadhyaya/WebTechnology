@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    margin: 20px;
+}
+.flex-item{
+    margin: 20px;
+}
+.flex-item img{
+    height: 300px;
+    width: 300px;
+}
