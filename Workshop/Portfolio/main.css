@@ -1,0 +1,290 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.navigation{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+image{
+    height: 50px;
+    width: 50px;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px;
+    align-items: left;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 30px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ba2d26;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.info h1{
+    font-size: 50px;
+    color: #424530;
+    margin-bottom: 10px;
+}
+span{
+    color: #ba2d26;
+}
+.info a{
+    background: #ba2d26;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.info a:hover{
+    color: #ba2d26;
+    background: #ffffff;
+}
+
+/*about*/
+.about-container{
+    font-weight: normal;
+    color: #000000;
+    margin: 0px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.education-table table{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ba2d26 ;
+}
+
+.education-table th,td{
+    padding: 10px 50px;
+}
+
+.education-table th{
+    color: black;
+    background-color: #ba2d26;
+}
+@media screen and (max-width: 900px){
+    .skills{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .education-table th,td{
+        padding: 5px;
+    }
+}
+
+/*contacts*/
+.contact-form{
+    color:rgb(0, 0, 0);
+    width: 70%;
+    padding: 0px 90px 90px 90px;
+    border: 1.5px solid rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 2px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+.contact-form .row {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid: auto / auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+    grid-gap: 30px;
+  }
+  
+.contact-form .row .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 20px 40px 0;
+    transition: 0.5s;
+}
+
+.contact-form .row .form-group {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #000000;
+}
+
+.contact-form .row .form-group input,
+.contact-form .row .form-group textarea {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
+
+}
+
+.contact-form .row .form-group label {
+    line-height: 40px;
+    color: #000000;
+    font-size: 24px;
+    margin: 0 0 0 30px;
+    display: block;
+    pointer-events: none;
+}
+
+.row .col:nth-child(6) {
+    margin-top: 65px;
+}
+
+.contact-form .row .form-group input:focus,
+.contact-form .row .form-group textarea:focus {
+    border: 5px solid #000000;
+    transition: all 0.1s;
+}
+
+.col input[type="submit"] {
+    border: 1px solid rgb(252, 252, 252);
+    box-shadow: 10px 10px 0 rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    background: #ba2d26;
+    text-transform: uppercase;
+    color: #fffdfd;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: all 0.4s;
+    position: relative;
+    top: 50px;
+    left: 25%;
+}
+textarea {
+    width: 250px;
+    height: 100px;
+  }
+
+.col  input[type="submit"]:hover {
+    color: #ba2d26;
+    transition: all 0.4s;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+.contact-form .row {
+    grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+}
+
+.contact-form {
+    padding: 20px;
+}
+
+.contact-form h2 {
+    font-size: 34px;
+}
+
+.contact-form .row input[type="submit"] {
+    width: 100%;
+}
+}
+/*fangs*/
+.team-title{
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+}
+
+.team-content-wrapper{
+    color: #000000;
+    margin: 25px;
+    padding: 25px;
+    line-height: 1.5;
+    display: flex;
+}
+
+.fangs-logo img{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.fangs-logo-name{
+    text-align: center;
+}
+.team-intro{
+    margin-left: 25px;
+    text-align: justify;
+}
+.second-cont{
+    color: #000000 ;
+    margin: 25px;
+    padding: 25px;
+}
+.member-title{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    grid-row-gap: 60px;
+    margin-bottom: 100px;
+}
+.member-name{
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.member-name a{
+    text-decoration: none;
+    color: #000000;
+}
+.member-about{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px){
+    .team-content-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .members{
+        grid-template-columns: 1fr;
+    }
+    
+}
